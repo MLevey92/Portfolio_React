@@ -1,0 +1,28 @@
+.navContainer {
+    background-color: #F1F1EF;
+    padding: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px;
+}
+
+.socialLink {
+    display: inline;
+}
+
+
+@media screen and (min-width: 576px) {
+    .navLink {
+        display: inline;
+    }
+
+    .navLinks {
+        padding-left: 0px;
+    }
+}
