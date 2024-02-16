@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App.jsx'
 import About from './pages/About/about.jsx';
 import Portfolio from './pages/Portfolio/portfolio.jsx';
-import Resume from './pages/Resume/Resume.jsx';
+import Resume from './pages/Resume/resume.jsx';
 import Contact from './pages/Contact/Contact.jsx';
 
 const router = createBrowserRouter([

@@ -1,6 +1,7 @@
 .navContainer {
-    background-color: #F1F1EF;
+    background-color: #495867;
     padding: 10px;
+    color: black;
 }
 
 
@@ -14,6 +15,11 @@ li {
 
 .socialLink {
     display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 

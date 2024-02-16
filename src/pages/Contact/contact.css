@@ -1,0 +1,13 @@
+.formHolder {
+    background-color: #F1F1EF;
+}
+
+.form-group {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.errorMessage {
+    display: flex;
+    justify-content: center;
+}

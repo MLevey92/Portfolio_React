@@ -1,0 +1,59 @@
+.resumeBox {
+
+    padding: 10px;
+    padding-top: 50px;
+    background-color: #F1F1EF;
+}
+
+.downloadButton {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#downloadButton {
+    padding: 10px;
+    color: black;
+}
+
+#downloadButton:hover {
+    box-shadow: 10px 10px 8px #888888;
+}
+
+/* Larger than smartphone -- mobile first approach */
+@media screen and (min-width: 576px) {
+    aside {
+        width: 18%;
+    }
+
+    #education {
+        display: flex;
+    }
+
+    #education-right {
+        border-left: 2px solid #72788D;
+        padding-left: 20px;
+        width: 82%
+    }
+
+    #skills {
+        display: flex;
+    }
+
+    #skills-right {
+        border-left: 2px solid #72788D;
+        padding-left: 20px;
+        width: 82%;
+    }
+
+    #experience {
+        display: flex;
+    }
+
+    #experience-right {
+        border-left: 2px solid #72788D;
+        padding-left: 20px;
+        width: 82%;
+    }
+
+}
