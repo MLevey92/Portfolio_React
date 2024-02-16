@@ -8,7 +8,7 @@ import App from './App.jsx'
 import About from './pages/About/about.jsx';
 import Portfolio from './pages/Portfolio/portfolio.jsx';
 import Resume from './pages/Resume/resume.jsx';
-import Contact from './pages/Contact/Contact.jsx';
+import Contact from './pages/Contact/contact.jsx';
 
 const router = createBrowserRouter([
   {
