@@ -1,6 +1,13 @@
+import './project.css';
 
-export default function Project () {
+export default function Project ({project}) {
     return (
-        <p>project</p>
+        <div className="card container">
+            <img src={project.image}></img>
+            <div className="card-body">
+                <h5 class="card-title">{project.name}</h5>
+                <a href={project.links.github} class="btn btn-primary">Github</a>
+            </div>
+        </div>
     );
 }
